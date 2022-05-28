@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: lightgreen;
+}
+
+header{
+    background-color: rgb(5, 87, 5);
+    background-image: url('imagens/ponte.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+header > h1{
+    padding: 50px 0px;
+    font-variant: small-caps;
+    color: white;
+    font-size: 9vw;
+    font-family: 'Signika Negative';
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+}
+
+main > h1{
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 20px;
+    color: green;
+    font-size: 10vh;
+    font-variant: small-caps;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-family: 'Signika Negative';
+    font-weight: 500;
+}
+
+section{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 4vh;
+}
+
+section p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+section a{
+    font-weight: 500;
+    color: rgb(10, 160, 10);
+    text-decoration: none;
+}
+
+section a:hover{
+    text-decoration: underline;
+    color: rgb(5, 109, 5);
+}
+
+section ol{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+section li{
+    line-height: 1.4em;
+}
+
+section#imagem01{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: url('imagens/arvores.jpg');
+    height: 80vh;
+    width: 75vw;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#imagem02{
+   display: block;
+   margin: auto;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   padding-right: 0px;
+   padding-left: 0px;
+   background-image: url('imagens/mao.jpg');
+   height: 80vh;
+   width: 75vw;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+section#imagem03{
+    display: block;
+    margin: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+   background-image: url('imagens/garrafas.jpg');
+   height: 80vh;
+   width: 70vw;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+footer{
+    padding: 10px;
+    background-color: darkgreen;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    font-family: 'Signika Negative';
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
