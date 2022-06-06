@@ -43,7 +43,7 @@ main > h1{
     text-align: center;
     padding-left: 20px;
     color: green;
-    font-size: 10vh;
+    font-size: 2.65em;
     font-variant: small-caps;
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -128,13 +128,13 @@ section#imagem03{
 }
 
 footer{
-    padding: 10px;
     background-color: darkgreen;
+    padding: 0.5em 0px 0.5em 0px;
 }
 
 footer p{
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
     color: white;
 }
